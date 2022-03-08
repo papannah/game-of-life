@@ -8,4 +8,3 @@ sudo systemctl status tomcat.service
 cd /opt/tomcat/
 ls
 cp /home/ubuntu/gameoflife.war ./webapps/
-ls
