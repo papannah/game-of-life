@@ -1,5 +1,5 @@
 hostname
-who
+whoami
 pwd
 mvn clean install
 scp /var/lib/jenkins/workspace/GameOfLife/gameoflife-web/target/gameoflife.war ubuntu@172.31.47.44:/home/ubuntu/
