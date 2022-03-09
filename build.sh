@@ -10,6 +10,8 @@ echo "SCP Done"
 ssh ubuntu@172.31.47.44 '
 hostname;
 sudo systemctl status tomcat.service;
+sudo systemctl restart tomcat.service;
+sudo systemctl status tomcat.service;
 cd /opt/tomcat/;
 ls;
 cp /home/ubuntu/gameoflife.war /opt/tomcat/webapps/
