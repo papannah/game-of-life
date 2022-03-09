@@ -12,4 +12,4 @@ ssh ubuntu@172.31.47.44
  sudo systemctl status tomcat.service;
  cd /opt/tomcat/;
  ls;
- cp /home/ubuntu/gameoflife.war ./webapps/'
+ cp /home/ubuntu/gameoflife.war /opt/tomcat/webapps/'
